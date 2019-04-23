@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.red {
+    background-color:red;
+}
+
+/* .green {
+    background-color: green;
+} */
+:global(.green){
+    background-color:green;
+}
+
+:global(.gold){
+    background-color:gold;
+}
+
+
+:local(.aqua){
+    background-color: aqua;
+}
