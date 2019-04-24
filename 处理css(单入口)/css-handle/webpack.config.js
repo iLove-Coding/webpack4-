@@ -20,6 +20,17 @@ module.exports = {
                         modules: true,
                         localIdentName: '[name]---[local]---[hash:base64:5]'
                     }
+                }, {
+                    loader: 'sass-loader',
+                    options: {
+                        sourceMap: true
+                    }
+                }, {
+                    loader: 'postcss-loader',
+                    options: {
+                        plugins: [require("autoprefixer")],
+                        sourceMap: true
+                    }
                 }]
             }
         ]
