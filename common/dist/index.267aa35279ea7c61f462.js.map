@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/index.js"],"names":["__webpack_require__","r","__webpack_exports__","document","getElementById","innerHTML"],"mappings":"2FAAAA,EAAAC,EAAAC,GAAAF,EAAA,QAEAG,SAASC,eAAe,SAASC,UAAY","file":"index.267aa35279ea7c61f462.js","sourcesContent":["import './index.css'\n\ndocument.getElementById('title').innerHTML = '学习webpack';\n"],"sourceRoot":""}
