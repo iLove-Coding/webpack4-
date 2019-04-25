@@ -12,6 +12,10 @@ webpack4搭建vue环境
 ├── .editorconfig // 编辑器代码风格的配置文件
 ├── .eslintrc.js // eslint的配置文件
 ├── .babelrc // babel的配置文件
+│   ├── scss // 文件夹，用于存放公共sass文件
+│   │   ├── global.scss
+│   │   ├── index.scss // 公共sass文件入口)
+│   │   └── variables.scss
 ├── src // 源代码文件夹
 │   ├── services // 文件夹，存放访问后端API的js文件）
 │   ├── index.html // 入口HTML文件模板）
@@ -27,10 +31,6 @@ webpack4搭建vue环境
 │   ├── router// 文件夹，用于存放路由配置
 │   │   └── index.js
 │   ├── store // 文件夹，用于存放vuex相关文件
-│   ├── scss // 文件夹，用于存放公共sass文件
-│   │   ├── global.scss
-│   │   ├── index.scss // 公共sass文件入口)
-│   │   └── variables.scss
 │   └── utils // 文件夹，用于存放工具文件）
 ├── static // 文件夹，用于存放图片等资源文件，与assets不同的是，static文件夹下是文件不会经过webpack处理，而是直接被拷贝到输出目录中）
 └──  build // 文件夹，用于存放公共webpack配置文件）
