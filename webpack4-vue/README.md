@@ -12,7 +12,7 @@ webpack4搭建vue环境
 ├── .editorconfig // 编辑器代码风格的配置文件
 ├── .eslintrc.js // eslint的配置文件
 ├── .babelrc // babel的配置文件
-│   ├── scss // 文件夹，用于存放公共sass文件
+├── scss // 文件夹，用于存放公共sass文件
 │   │   ├── global.scss
 │   │   ├── index.scss // 公共sass文件入口)
 │   │   └── variables.scss
