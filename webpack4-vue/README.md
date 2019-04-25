@@ -47,7 +47,6 @@ webpack4搭建vue环境
     * 热更替（默认）
     * 设置port/host
     * 设置publicPath
-    * 设置浏览器遮罩报错提醒
     * 设置是否自动打开浏览器
   + 静态文件编译处理
     * 处理vue文件,开启css module (暂时没有设置css module。需要可查看 vue-loader@15文档 https://vue-loader.vuejs.org/zh/ )
@@ -56,14 +55,12 @@ webpack4搭建vue环境
     * 处理图片路径
     * 处理ES7/ES7的编译
     * 处理postcss添加css前缀
-    * 处理html文件里的img路径 (暂时没有，需要可查看 html-withimg-loader)
   + 指定devtool
   + 代码规范性约束
     * .eslint
     * .editorconfig
     * pre-commont防止不符合eslint的代码被提交
   + 设置resolve，注意css里解析alias需要配置css-loadr
-  + webpack日志仪表盘
 
 
 - production
@@ -75,10 +72,7 @@ webpack4搭建vue环境
   + 压缩、混淆js和css
   + 处理打包后的静态文件路径
   + 自动生成html模板、打包前自动remove dist文件夹
-  + 去掉devtool
-  + Tree Shaking，去掉冗余代码
-
-
+  + 指定devtool
 
 
 
