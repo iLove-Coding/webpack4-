@@ -1,0 +1,1 @@
+module.exports = '这是一个测试'
